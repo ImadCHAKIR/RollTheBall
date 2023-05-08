@@ -1,0 +1,226 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "gameplay",
+            "id": "70d0c0ba-fcbb-41a9-9d08-3e13a029db42",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "1aaa3038-65dd-4a68-b6df-2ff4c7aefd19",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "jump",
+                    "type": "Button",
+                    "id": "771a172d-54de-4519-bc56-7dca325752ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "invisible",
+                    "type": "Button",
+                    "id": "d96a1194-c9db-42a4-a05b-cd8e912cd8e2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "dashZ",
+                    "type": "Button",
+                    "id": "d2d0381b-0515-4caa-87c7-cfcf36dae14c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "dashS",
+                    "type": "Button",
+                    "id": "e85f3198-d993-4f96-a9f8-9fe171a8b760",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "dashQ",
+                    "type": "Button",
+                    "id": "9e35aec9-4361-4c6e-b94c-b0ba3022648b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "dashD",
+                    "type": "Button",
+                    "id": "da413b1c-49aa-403e-9cc9-adbc466a5125",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "b02931a2-f45b-4219-9769-c1231cd9ee85",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "f9b32719-39b0-4d9c-aa7f-c6aa456faa17",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "4d47daa6-d08e-4d13-b34d-df9fc7c20189",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "261e2a7d-df92-4f79-8a4b-ef0329c434f3",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f7f8ecbb-17f4-4af0-9ed2-5b394c187364",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "00f02cd2-dda5-40c9-bd9e-d731479645a9",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "437923ec-ab89-46f1-9c3a-870f65a58ba2",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "invisible",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8e393dae-f1c7-4248-a526-6654f2c28f64",
+                    "path": "<Keyboard>/w",
+                    "interactions": "MultiTap(tapDelay=0.25)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "dashZ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c8a45aff-e7fd-4a0a-aa1b-79b9a58d2d87",
+                    "path": "<Keyboard>/s",
+                    "interactions": "MultiTap(tapDelay=0.25)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "dashS",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2af15428-71e4-45f0-980c-1e3ae58171ae",
+                    "path": "<Keyboard>/a",
+                    "interactions": "MultiTap(tapDelay=0.25)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "dashQ",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20c6482a-1263-40dd-834e-dc45f1e8d1ba",
+                    "path": "<Keyboard>/d",
+                    "interactions": "MultiTap(tapDelay=0.25)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "dashD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "New action map",
+            "id": "40f2da42-5be4-441c-bcda-037225e31d08",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "40e7373a-c455-490a-ab20-02213fd8267d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5a3e1ae4-f01c-46a6-a211-d7d6bafeda70",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
